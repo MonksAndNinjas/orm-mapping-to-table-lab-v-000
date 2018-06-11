@@ -37,4 +37,6 @@ class Student
     @id = DB[:conn].execute("SELECT * FROM students ORDER BY id DESC LIMIT 1")[0][0]
   end
 
+  
+
 end
